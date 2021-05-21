@@ -5,13 +5,14 @@ import Constants from 'expo-constants';
 import Display from './components/Display';
 // import Camerafunc from './components/Camerafunc';
 import Homepage from './components/Homepage'
+import Recipe from './components/Recipe'
 
 
 export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.statusBar} />
-      <Homepage/>
+      <Recipe/>
       {/* <TopBar></TopBar> */}
       {/* <Camerafunc /> */}
       {/* <Newing /> */}
