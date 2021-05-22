@@ -5,15 +5,17 @@ import Constants from 'expo-constants';
 import Display from './components/Display';
 // import Camerafunc from './components/Camerafunc';
 import Homepage from './components/Homepage'
-import Recipe from './components/Recipe'
-import TopBar from './components/TopBar';
+import IngredientsDetailsScreen from './components/ingredients/IngredientsDetailsScreen'
+import Newing from './components/ingredients/Newingredients'
+import TopBar from './components/TopBar'
+import Reciepe from './components/Receipe'
+import Navigator from './routes/homeStack'
 
 export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.statusBar} />
-      <TopBar/>
-      <Recipe/>
+      <Navigator/>
       {/* <TopBar></TopBar> */}
       {/* <Camerafunc /> */}
       {/* <Newing /> */}
