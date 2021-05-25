@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {View, Image,Text,StyleSheet,ImageBackground,TouchableHighlight, TouchableOpacity} from 'react-native'
 import * as Font from 'expo-font'
-
+import axios from 'axios'
 
 class Homepage extends Component {
     state={
